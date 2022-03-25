@@ -4,6 +4,9 @@
     <router-link to="/about">About</router-link>
   </nav>
   <router-view/>
+  <div> 
+   <Header> Welcome </Header>
+   <footer> CopyRight </footer>
 </template>
 
 <style>
@@ -31,5 +34,9 @@ header {
   color: black;
   padding: auto;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer {
+  color: black;
+  padding: auto;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div>
       <header>
-          Header
+          Welcome
       </header>
   </div>
 </template>
