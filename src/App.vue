@@ -27,4 +27,9 @@ nav a {
 nav a.router-link-exact-active {
   color: #42b983;
 }
+header {
+  color: black;
+  padding: auto;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 </style>

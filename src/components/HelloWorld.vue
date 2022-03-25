@@ -1,6 +1,9 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <header> Header </header>
+    <h1>{{ props.msg }}</h1>
+    <img :src="photo" alt="">
+    <button v-bind:key="value"> </button>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -30,13 +33,15 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
+<script setup>
+const props = defineProps ({
+  msg: {
+    type: String,
+    default:"Good Bye"
+
   }
-}
+})
+const photo = "../assets/logo.png"
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
