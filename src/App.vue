@@ -31,12 +31,22 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 header {
-  color: black;
+  color: rgb(0, 62, 177);
   padding: auto;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 footer {
-  color: black;
+  color: rgb(0, 62, 177);
   padding: auto;
+}
+textarea {
+  color-adjust: black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+image {
+  padding: auto;
+  border-image-width: 25%;
+  align-content: center;
 }
 </style>
